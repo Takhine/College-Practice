@@ -1,0 +1,71 @@
+body {
+     color:black;
+     font-size:12px;
+}
+footer{color:white;}
+article{color:white;}
+th{color:white;}
+td{color:white;}
+#Superman{ background-image: url(https://s-media-cache-ak0.pinimg.com/236x/dc/02/b1/dc02b1c08926f1383cb4327f025c0d2c.jpg); background-repeat: no-repeat; size:auto; width: 400px; height: 400px; }
+
+#Batman{ background-image: url(http://static4.comicvine.com/uploads/scale_small/13/134088/2664527-tumblr_lypuvknpzf1qfbkomo1_1280.jpg); background-repeat: no-repeat; width: 350px; height: 500px; }
+
+#WW{ background-image: url(https://upload.wikimedia.org/wikipedia/en/b/b5/WonderWomanNew52.jpg); background-repeat: no-repeat; width: 400px; height: 400px; }
+
+#Flash{ background-image: url(https://s-media-cache-ak0.pinimg.com/736x/52/2f/f7/522ff79335adb7fa933302c53c2e790e.jpg); background-repeat: no-repeat; width: 600px; height: 600px; }
+
+#GL{ background-image: url(http://vignette2.wikia.nocookie.net/greenlantern/images/3/3f/John_Stewart-1.jpg/revision/latest?cb=20090107072833); background-repeat: no-repeat; width: 400px; height: 400px; }
+
+#MM{ background-image: url(http://tse2.mm.bing.net/th?id=OIP.Me59e920cd0c000b1881d3dcf05b4eadeo0&pid=15.1); background-repeat: no-repeat; width: 300px; height: 300px; }
+
+#HG{ background-image: url(http://jl.toonzone.net/downloads/013.jpg); background-repeat: no-repeat; width: 400px; height: 400px; }
+
+h1::first-line {
+     text-transform:uppercase;
+     font-size:200%;
+     color:white;
+}
+h1::first-letter {
+     font-size:200%;
+     color:orange;
+}
+h2::first-letter{
+  font-size:200%;
+  color:blue;
+}
+ul{color:white;}
+ol{color:white;}
+body { background: url(http://heroclix-game.com/heroclix-blog/downloads/Wallpapers/DC_Wallpapers/DC_Wallpaper_Justice_League_Cartoon.jpg)repeat; } 
+
+body { background-attachment: fixed; }
+
+p{color:#eee;}
+* { font-size:100%; }
+html { font-size:62.5%; }
+body {
+       font-family:Arial, Helvetica, sans-serif;
+       font-size:1.2em;
+}
+strong, b { font-weight:bold;color: white; }
+em, i { font-style:italic; }
+h2, h3, h4 {
+       font-family:Arial, "Arial Black", sans-serif;
+       font-weight:normal;
+}
+h2 { font-size:1.6em; 
+color:white;}
+h3 { font-size:1.5em; 
+color:white;}
+h4 { font-size:1.2em;
+color:white; }
+h4 { font-variant:small-caps; 
+color:white;}
+h5{color:white;
+ body { background-color: #FFFFCC; }
+}
+blockquote{color:white;}
+em{color:white;}
+form {
+     font-size:14px;
+color:red; }
+    
