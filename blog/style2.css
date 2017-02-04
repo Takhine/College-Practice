@@ -1,0 +1,42 @@
+body {
+     color:black;
+     font-size:12px;
+     
+     background: url(http://tse1.mm.bing.net/th?id=OIP.TZL8yAlUG0xh49sDMBAPGQEsDF&w=231&h=151&c=7&rs=1&qlt=90&o=4&dpr=2&pid=1.1)no-repeat bottom  fixed;
+
+ }
+   body { background-attachment:fixed; 
+   	background-position:top;
+   	backface-visibility: hidden;}
+#Superman{ background-image: url(http://tse1.mm.bing.net/th?&id=OIP.M5353e5ab522cd9c3d3fa2528235c9a9cH0&w=269&h=300&c=0&pid=1.9&rs=0&p=0&r=0); background-repeat: no-repeat; size:auto; width: 400px; height: 300px; }
+
+#Batman{ background-image: url(http://tse2.mm.bing.net/th?id=OIP.Mb359c11462df99dbedbeb7ca8ae3d6c7H0&w=103&h=139&c=7&rs=1&qlt=90&o=4&dpr=2&pid=1.1); background-repeat: no-repeat; width: 350px; height: 300px; }
+
+#WW{ background-image: url(http://tse1.mm.bing.net/th?id=OIP.M54a8efb7618431ed08ae6d939076a6c3o0&pid=15.1); background-repeat: no-repeat; width: 400px; height: 300px; }
+
+#Flash{ background-image: url(http://tse3.mm.bing.net/th?id=OIP.Mb57b340ce1470e110a48c6f690b678a5o0&w=73&h=135&c=7&rs=1&qlt=90&o=4&dpr=2&pid=1.1); background-repeat: no-repeat; width: 600px; height: 300px; }
+
+#GL{ background-image: url(http://tse3.mm.bing.net/th?id=OIP.Me856581e5d257697eef04c7f9de1f9f2o0&w=72&h=144&c=7&rs=1&qlt=90&o=4&dpr=2&pid=1.1); background-repeat: no-repeat; width: 400px; height: 300px; }
+
+#MM{ background-image: url(http://tse1.mm.bing.net/th?&id=OIP.Mf02f2643040e1491a9e80e3aa94f9a0bo0&w=125&h=277&c=0&pid=1.9&rs=0&p=0&r=0); background-repeat: no-repeat; width: 300px; height: 300px; }
+
+#HG{ background-image: url(http://tse1.mm.bing.net/th?&id=OIP.Mc64da3c5d49449bb47eb919f5e74473co0&w=150&h=300&c=0&pid=1.9&rs=0&p=0&r=0); background-repeat: no-repeat; width: 400px; height: 300px; }
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+#animate-area	{ 
+	width: 2060px; 
+	height: 150px; 
+	background-image: url(http://tse4.mm.bing.net/th?id=OIP.Mcf1f80b30c51dd45a9eb3dc74654b2a5o0&pid=15.1);
+	background-position:center;
+	background-repeat: repeat-y;
+
+	animation: animatedBackground 2s linear infinite;
+}
+h1{
+	color:red;
+}
+strong{
+	color: red;
+}
