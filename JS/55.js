@@ -6,13 +6,14 @@ document.addEventListener("DOMContentLoaded",
       console.log(event);
 
       this.textContent = "Submit";
-      var name =
-       document.getElementById("name").value;
-      // var message = "<h2>Marks: " + name + "!</h2>";
       if (name==="Math")
       {
         var message="<h2>Marks in Math: " + name + "!</h2>";
       }
+      var name =
+       document.getElementById("name").value;
+       var message = "<h2>Marks: " + name + "!</h2>";
+    }
       document
         .getElementById("content")
         .innerHTML = message;
