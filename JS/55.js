@@ -5,25 +5,45 @@ document.addEventListener("DOMContentLoaded",
     function sayHello (event) {
       console.log(event);
 
-      this.textContent = "Said it!";
+      this.textContent = "Submit";
       var name =
        document.getElementById("name").value;
-       var message = "<h2>Hello " + name + "!</h2>";
+       var message = "<h2>Marks: " + name + "!</h2>";
 
       document
         .getElementById("content")
         .innerHTML = message;
 
-      if (name === "student") {
-        var title = 
+      if (name === "Math") {
+        var h1 = 
           document
-            .querySelector("#title")
+            .querySelector("#h1")
             .textContent;
-        title += " & Lovin' it!";
+        name += " marks in Math";
         document
             .querySelector("h1")
-            .textContent = title;
+            .textContent = h1;
       }
+        if (name === "English") {
+        var h1 = 
+          document
+            .querySelector("#h1")
+            .textContent;
+        name += " marks in English";
+        document
+            .querySelector("h1")
+            .textContent = h1;
+        }
+        if (name === "Science") {
+        var h1 = 
+          document
+            .querySelector("#h1")
+            .textContent;
+        name += " marks in Science";
+        document
+            .querySelector("h1")
+            .textContent = h1;
+        }
     }
 
     // Unobtrusive event binding
