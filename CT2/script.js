@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",
     // Unobtrusive event binding
     document.querySelector("button")
       .addEventListener("click", function () {
-        
+        this.style.backgroundColor = "red";
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
