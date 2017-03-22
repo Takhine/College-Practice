@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded",
     // Unobtrusive event binding
     document.querySelector("button")
       .addEventListener("click", function () {
-        this.style.text = "red";
+        this.style.backgroundolor = "red";
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
@@ -16,11 +16,12 @@ document.addEventListener("DOMContentLoaded",
               if ( temp === res.student1) {
              
                 var temp2= res.course1+": "+res.marks11
+                var temp2= res.course1+": "+res.marks12
                
               }
               else if (temp === res.student2) {
                 var temp2= res.course1+": "+res.marks21
-               
+               var temp2= res.course1+": "+res.marks22
               }
           else {
             var temp1 = "no such student";
