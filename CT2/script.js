@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded",
                
               }
               else if (temp === res.student2) {
-                var temp2= res.course1+": "+res.marks21
-               var temp2= res.course1+": "+res.marks22
+                var temp2= res.course2+": "+res.marks21
+               var temp2= res.course2+": "+res.marks22
               }
           else {
             var temp1 = "no such student";
