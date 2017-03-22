@@ -1,12 +1,12 @@
 {
-  "course1": "mathematics",
+  "course1": "Q",
   "student1": "Aayush",
-  "marks11":" Q.Deadlock is state in which a process with some resources is waiting to get the resources held by some other processes.",
-  "marks12": "Q.Mercury is a solid Metal.", 
+  "marks11":" Deadlock is state in which a process with some resources is waiting to get the resources held by some other processes.",
+   
   "marks21": "Q.The sun revolves around the earth.",
-  "marks22": "Q.There are twelve months in a year.",
+  
   "student2": "Kiran",
-  "course2": "operating systems"
+  "course2": "Q"
  
    
 }
